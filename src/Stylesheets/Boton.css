@@ -14,10 +14,18 @@ button:hover {
   background-color: yellowgreen;
 }
 
-.Click {
+.Suma {
   background-color: blue;
+}
+
+.Resta {
+  background-color: goldenrod;
 }
 
 .Reinicio {
   background-color: brown;
+}
+
+.Asignacion {
+  background-color: purple;
 }

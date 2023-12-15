@@ -1,7 +1,7 @@
 *{
   padding: 0;
   box-sizing: border-box;
-  background-color: gray;
+  background-color: pink;
 }
 
 .App{
@@ -33,4 +33,22 @@
 h1{
   width: 100%;
   text-align: center;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: black; /* Color del texto en negro */
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue; /* Cambia el color del borde al enfocar el input */
 }
